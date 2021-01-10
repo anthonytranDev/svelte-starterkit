@@ -1,6 +1,13 @@
 <!-- App.svelte -->
 <script>
-  /* component logic will go here */
+  import { onMount } from 'svelte';
+  let count = 0; // @hmr:keep
+  onMount(() => {
+    const interval = setInterval(() => count++, 1000);
+    return () => {
+      clearInterval(interval);
+    };
+  });
 </script>
 <style>
   .App-header {
@@ -31,11 +38,12 @@
 <div class="App">
   <header class="App-header">
     <img src="/logo.svg" class="App-logo" alt="logo" />
+    <p>Page has been open for <code>{count}</code> seconds.</p>
     <a
-      class="App-link"
-      href="https://svelte.dev"
-      target="_blank"
-      rel="noopener noreferrer"
+    class="App-link"
+    href="https://svelte.dev"
+    target="_blank"
+    rel="noopener noreferrer"
     >
       Learn Svelte
     </a>
