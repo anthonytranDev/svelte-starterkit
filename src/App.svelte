@@ -1,14 +1,15 @@
 <!-- App.svelte -->
 <script>
-  import { Router, Route } from "svelte-routing";
+  import { Router, Route } from "svelte-routing"
 
-  import About from './pages/About.svelte'
-  import Blog from './pages/Blog/index.svelte'
-  import BlogPost from './pages/Blog/BlogPost.svelte'
-  import Home from './pages/Home.svelte'
+  import About from "./pages/About.svelte"
+  import Blog from "./pages/Blog/index.svelte"
+  import BlogPost from "./pages/Blog/BlogPost.svelte"
+  import Home from "./pages/Home.svelte"
 
-  export let url = "";
+  export let url = ""
 </script>
+
 <Router url="{url}">
   <Route path="/"><Home /></Route>
   <Route path="about" component="{About}" />

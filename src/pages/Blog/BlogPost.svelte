@@ -1,5 +1,5 @@
 <script>
-    import BlogHeader from './BlogHeader.svelte'
+  import BlogHeader from "./BlogHeader.svelte"
 </script>
 
 <BlogHeader />
