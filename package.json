@@ -3,7 +3,7 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "lint": "eslint .",
-    "lint:prettier": "prettier --write ."
+    "style": "prettier --write ."
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
