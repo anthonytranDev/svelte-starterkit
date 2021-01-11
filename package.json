@@ -2,10 +2,12 @@
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+    "lint": "prettier --write ."
   },
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.4.1",
+    "prettier": "^2.2.1",
+    "prettier-plugin-svelte": "^2.0.3",
     "snowpack": "^2.18.4"
   },
   "dependencies": {
