@@ -7,10 +7,9 @@
   import BlogPost from "./pages/Blog/BlogPost.svelte"
   import Home from "./pages/Home.svelte"
 
-  export let url = ""
 </script>
 
-<Router url="{url}">
+<Router>
   <Route path="/"><Home /></Route>
   <Route path="about" component="{About}" />
   <Route path="blog" component="{Blog}" />
