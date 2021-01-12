@@ -1,5 +1,5 @@
 <style>
-  .App-header {
+  .home-header {
     background-color: #f9f6f6;
     color: #333;
     min-height: 100vh;
@@ -9,13 +9,13 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
   }
-  .App-logo {
+  .home-logo {
     height: 36vmin;
     pointer-events: none;
     margin-bottom: 3rem;
-    animation: App-logo-pulse infinite 1.6s ease-in-out alternate;
+    animation: home-logo-pulse infinite 1.6s ease-in-out alternate;
   }
-  @keyframes App-logo-pulse {
+  @keyframes home-logo-pulse {
     from {
       transform: scale(1);
     }
@@ -25,11 +25,10 @@
   }
 </style>
 
-<div class="App">
-  <header class="App-header">
-    <img src="/logo.svg" class="App-logo" alt="logo" />
+<div class="app" data-testid="Home">
+  <header class="home-header">
+    <img src="/logo.svg" class="home-logo" alt="logo" />
     <a
-      class="App-link"
       href="https://svelte.dev"
       target="_blank"
       rel="noopener noreferrer"> Learn Svelte </a>
