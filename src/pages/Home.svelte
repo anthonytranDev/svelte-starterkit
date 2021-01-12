@@ -25,12 +25,11 @@
   }
 </style>
 
-<div class="app" data-testid="Home">
+<div class="home" data-testid="Home">
   <header class="home-header">
     <img src="/logo.svg" class="home-logo" alt="logo" />
-    <a
-      href="https://svelte.dev"
-      target="_blank"
-      rel="noopener noreferrer"> Learn Svelte </a>
+    <a href="https://svelte.dev" target="_blank" rel="noopener noreferrer">
+      Learn Svelte
+    </a>
   </header>
 </div>
