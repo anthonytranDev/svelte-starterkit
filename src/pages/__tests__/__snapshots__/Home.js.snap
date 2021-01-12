@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders 1`] = `
+<div
+  class="app"
+  data-testid="Home"
+>
+  <header
+    class="home-header svelte-bjfcsv"
+  >
+    <img
+      alt="logo"
+      class="home-logo svelte-bjfcsv"
+      src="/logo.svg"
+    />
+     
+    <a
+      href="https://svelte.dev"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Learn Svelte
+    </a>
+  </header>
+</div>
+`;
