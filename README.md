@@ -11,7 +11,7 @@
 
 ## Available Scripts
 
-### Starting Application
+### Starting the App
 
 `npm start`
 
