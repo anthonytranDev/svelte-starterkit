@@ -29,7 +29,7 @@
   <div class="header-wrapper">
     <Link to="/">
       <div class="header-item">
-        <span>Basic</span> Starterkit
+        <span>Svelte</span> Starterkit
       </div>
     </Link>
 
