@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogHeader should render 1`] = `
+<div
+  data-testid="BlogHeader"
+>
+  <h1>
+    Blog
+  </h1>
+   
+  <p
+    class="blog-description svelte-y06stb"
+  >
+    Latest news
+  </p>
+</div>
+`;

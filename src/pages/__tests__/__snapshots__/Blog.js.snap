@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog should render 1`] = `
+<div
+  data-testid="Blog"
+>
+  <div
+    data-testid="BlogHeader"
+  >
+    <h1>
+      Blog
+    </h1>
+     
+    <p
+      class="blog-description svelte-y06stb"
+    >
+      Latest news
+    </p>
+  </div>
+   
+  <div>
+    <a
+      href="/blog/1"
+    >
+      Blog Post #1
+    </a>
+  </div>
+   
+  <div>
+    <a
+      href="/blog/2"
+    >
+      Blog Post #2
+    </a>
+  </div>
+</div>
+`;

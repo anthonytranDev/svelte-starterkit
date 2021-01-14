@@ -25,7 +25,7 @@
   }
 </style>
 
-<div class="header">
+<div class="header" data-testid="Header">
   <div class="header-wrapper">
     <Link to="/">
       <div class="header-item">

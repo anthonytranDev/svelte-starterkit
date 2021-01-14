@@ -19,7 +19,7 @@
   }
 </style>
 
-<div class="footer">
+<div class="footer" data-testid="Footer">
   <div class="footer-wrapper">
     <div class="footer-license">MIT License</div>
     <div>

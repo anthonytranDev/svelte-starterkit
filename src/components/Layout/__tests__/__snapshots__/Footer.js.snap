@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render 1`] = `
+<div
+  class="footer svelte-ds2ccu"
+  data-testid="Footer"
+>
+  <div
+    class="footer-wrapper svelte-ds2ccu"
+  >
+    <div
+      class="footer-license svelte-ds2ccu"
+    >
+      MIT License
+    </div>
+     
+    <div>
+      <a
+        href="https://github.com/anthonytranDev"
+      >
+        <img
+          alt="logo"
+          class="home-logo svelte-ds2ccu"
+          id="github-logo"
+          src="/github-logo.svg"
+        />
+         
+        <span>
+          GitHub: anthonytranDev/svelte-basic-starter
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;

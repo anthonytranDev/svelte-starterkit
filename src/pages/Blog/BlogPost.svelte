@@ -1,6 +1,3 @@
-<script>
-  import BlogHeader from "./BlogHeader.svelte"
-</script>
-
-<BlogHeader />
-<h2>Blog Page Number: {$$props.id}</h2>
+<div data-testid="BlogPost">
+  <h2>Blog Post #{$$props.params.id}</h2>
+</div>

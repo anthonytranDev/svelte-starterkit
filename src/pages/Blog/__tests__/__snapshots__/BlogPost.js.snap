@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPost should render 1`] = `
+<div
+  data-testid="BlogPost"
+>
+  <h2>
+    Blog Post #
+    undefined
+  </h2>
+</div>
+`;

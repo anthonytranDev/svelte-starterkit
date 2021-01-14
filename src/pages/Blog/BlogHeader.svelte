@@ -1,9 +1,11 @@
 <style>
-  .description {
+  .blog-description {
     color: #686868;
     font-style: italic;
   }
 </style>
 
-<h1>Blog</h1>
-<p class="description">Latest news</p>
+<div data-testid="BlogHeader">
+  <h1>Blog</h1>
+  <p class="blog-description">Latest news</p>
+</div>

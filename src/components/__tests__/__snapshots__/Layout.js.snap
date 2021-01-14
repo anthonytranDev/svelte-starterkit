@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should render 1`] = `
+<div
+  data-testid="Layout"
+>
+  <div
+    class="header svelte-1l7lnf1"
+    data-testid="Header"
+  >
+    <div
+      class="header-wrapper svelte-1l7lnf1"
+    >
+      <a
+        aria-current="page"
+        href="/"
+      >
+        <div
+          class="header-item svelte-1l7lnf1"
+        >
+          <span
+            class="svelte-1l7lnf1"
+          >
+            Basic
+          </span>
+           Starterkit
+        </div>
+      </a>
+       
+      <nav
+        class="header__nav svelte-1l7lnf1"
+      >
+        <a
+          aria-current="page"
+          href="/"
+        >
+          <div
+            class="header-item svelte-1l7lnf1"
+          >
+            Home
+          </div>
+        </a>
+         
+        <a
+          href="/about"
+        >
+          <div
+            class="header-item svelte-1l7lnf1"
+          >
+            About
+          </div>
+        </a>
+         
+        <a
+          href="/blog"
+        >
+          <div
+            class="header-item svelte-1l7lnf1"
+          >
+            Blog
+          </div>
+        </a>
+      </nav>
+    </div>
+  </div>
+   
+  <div
+    class="layout-background svelte-1a5pxw2"
+  />
+   
+  <div
+    class="footer svelte-ds2ccu"
+    data-testid="Footer"
+  >
+    <div
+      class="footer-wrapper svelte-ds2ccu"
+    >
+      <div
+        class="footer-license svelte-ds2ccu"
+      >
+        MIT License
+      </div>
+       
+      <div>
+        <a
+          href="https://github.com/anthonytranDev"
+        >
+          <img
+            alt="logo"
+            class="home-logo svelte-ds2ccu"
+            id="github-logo"
+            src="/github-logo.svg"
+          />
+           
+          <span>
+            GitHub: anthonytranDev/svelte-basic-starter
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

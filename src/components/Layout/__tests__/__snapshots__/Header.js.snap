@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render 1`] = `
+<div
+  class="header svelte-1l7lnf1"
+  data-testid="Header"
+>
+  <div
+    class="header-wrapper svelte-1l7lnf1"
+  >
+    <a
+      aria-current="page"
+      href="/"
+    >
+      <div
+        class="header-item svelte-1l7lnf1"
+      >
+        <span
+          class="svelte-1l7lnf1"
+        >
+          Basic
+        </span>
+         Starterkit
+      </div>
+    </a>
+     
+    <nav
+      class="header__nav svelte-1l7lnf1"
+    >
+      <a
+        aria-current="page"
+        href="/"
+      >
+        <div
+          class="header-item svelte-1l7lnf1"
+        >
+          Home
+        </div>
+      </a>
+       
+      <a
+        href="/about"
+      >
+        <div
+          class="header-item svelte-1l7lnf1"
+        >
+          About
+        </div>
+      </a>
+       
+      <a
+        href="/blog"
+      >
+        <div
+          class="header-item svelte-1l7lnf1"
+        >
+          Blog
+        </div>
+      </a>
+    </nav>
+  </div>
+</div>
+`;
