@@ -1,5 +1,5 @@
-import App from "./App.svelte"
-import "./styles/index.css"
+import App from './App.svelte'
+import './styles/index.css'
 
 let app = new App({
   target: document.body,

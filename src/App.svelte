@@ -1,12 +1,12 @@
 <!-- App.svelte -->
 <script>
-  import { Router, Route } from "svelte-routing"
+  import { Router, Route } from 'svelte-routing'
 
-  import Layout from "./components/Layout/index.svelte"
+  import Layout from './components/Layout/index.svelte'
 
-  import Blog from "./pages/Blog/index.svelte"
-  import BlogPost from "./pages/Blog/BlogPost.svelte"
-  import Home from "./pages/Home.svelte"
+  import Blog from './pages/Blog/index.svelte'
+  import BlogPost from './pages/Blog/BlogPost.svelte'
+  import Home from './pages/Home.svelte'
 </script>
 
 <div data-testid="App">

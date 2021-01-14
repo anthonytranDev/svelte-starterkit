@@ -1,6 +1,6 @@
 <script>
-  import { Link } from "svelte-routing"
-  import BlogHeader from "./BlogHeader.svelte"
+  import { Link } from 'svelte-routing'
+  import BlogHeader from './BlogHeader.svelte'
 </script>
 
 <div data-testid="Blog">
